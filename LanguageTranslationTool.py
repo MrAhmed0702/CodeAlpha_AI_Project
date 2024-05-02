@@ -8,8 +8,7 @@ def translate_text(text, target_language):
 
 
 tt = input("Enter the text you want to translate: ")
-tl = input("Enter the target language (e.g., 'fr' for French, 'es' for Spanish): ")
+tl = input("Enter the target language ('fr' for French, 'ar' for Arabic): ")
 
 translated_t = translate_text(tt, tl)
-print("Translated text:")
-print(translated_t)
+print("Translated text:" + translated_t)
